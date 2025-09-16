@@ -26,7 +26,7 @@ da média móvel influencia a sensibilidade do indicador às mudanças de preço
 <h1><b> Tipo de Problema </b></h1>
 Este é um problema de Previsão de Séries Temporais.
 
-<h1><b> Área de aplicação </b></h1>
+<h1><b> Área de Aplicação </b></h1>
 Este projeto de análise e previsão de preços de ações pode ser aplicado em diversas áreas, principalmente dentro do domínio financeiro e de investimentos:<br>
 
 <b>Gestão de Portfólio de Investimentos:</b> Investidores e gestores de fundos podem usar as previsões para tomar decisões sobre quais ações comprar, vender ou manter, buscando maximizar retornos e minimizar riscos.<br>
@@ -36,7 +36,7 @@ Este projeto de análise e previsão de preços de ações pode ser aplicado em 
 <b>Educação Financeira:</b> O notebook pode ser usado como uma ferramenta educacional para demonstrar conceitos de análise de mercado, modelagem de séries temporais e finanças quantitativas.<br>
 <b>Tomada de Decisão Corporativa:</b> Empresas de capital aberto podem analisar o comportamento de suas próprias ações ou as de concorrentes para entender o sentimento do mercado e planejar estratégias financeiras.<br>
 
-<h1><b> Valor para o negócio </b></h1>
+<h1><b> Valor para o Negócio </b></h1>
 Este projeto pode trazer um valor significativo para um negócio, especialmente aqueles envolvidos com o mercado financeiro ou que precisam tomar decisões baseadas no desempenho de ações.<br>
 O valor reside principalmente em:<br>
 <b>Melhor Tomada de Decisão de Investimento:</b> Ao fornecer análises sobre o comportamento histórico das ações, volatilidade, risco (VaR) e correlação, o projeto permite que gestores de investimento ou analistas tomem decisões mais informadas sobre onde alocar capital. As previsões de preços podem ajudar a identificar potenciais oportunidades de compra ou venda.<br>
@@ -48,6 +48,6 @@ O valor reside principalmente em:<br>
 
 <h1><b> Seleção de Dados </b></h1>
 
-<h1><b> Atributos do dataset após tratamento dos dados</b></h1>
+<h1><b> Atributos do dataset</b></h1>
 
 <h1>Conclusão</h1>
