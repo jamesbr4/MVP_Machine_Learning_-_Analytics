@@ -24,8 +24,19 @@ da média móvel influencia a sensibilidade do indicador às mudanças de preço
 6. Previsão do preço de fechamento das ações
   
 <h1><b> Tipo de Problema </b></h1>
-
 Este é um problema de Previsão de Séries Temporais.
+
+<h1><b> Área de aplicação </b></h1>
+Gestão de Portfólio de Investimentos, Análise de Risco, Algorithmic Trading (Negociação Algorítmica), Pesquisa Financeira, Educação Financeira e Tomada de Decisão Corporativa
+
+<h1><b> Valor para o negócio </b></h1>
+Este projeto pode trazer um valor significativo para um negócio, especialmente aqueles envolvidos com o mercado financeiro ou que precisam tomar decisões baseadas no desempenho de ações. O valor reside principalmente em:<br>
+<b>Melhor Tomada de Decisão de Investimento:</b> Ao fornecer análises sobre o comportamento histórico das ações, volatilidade, risco (VaR) e correlação, o projeto permite que gestores de investimento ou analistas tomem decisões mais informadas sobre onde alocar capital. As previsões de preços podem ajudar a identificar potenciais oportunidades de compra ou venda.<br>
+<b>Gerenciamento de Risco Aprimorado:</b> A quantificação do risco diário (VaR) para ações específicas ajuda a entender a perda potencial máxima em um determinado nível de confiança. Isso é crucial para gerenciar a exposição ao risco de um portfólio e tomar medidas de mitigação.<br>
+<b>Otimização de Estratégias de Negociação:</b> Para negócios que utilizam negociação algorítmica, as previsões de preços podem ser incorporadas em estratégias automatizadas para gerar sinais de negociação, buscando capitalizar movimentos de mercado previstos.<br>
+<b>Entendimento do Mercado:</b> A análise exploratória fornece insights sobre as tendências do mercado de tecnologia, a volatilidade relativa de diferentes ações e como elas se movem em relação umas às outras. Isso ajuda o negócio a ter uma compreensão mais profunda do ambiente em que opera.<br>
+<b>Desenvolvimento de Produtos/Serviços:</b> Empresas de tecnologia financeira (FinTech) podem usar as análises e modelos desenvolvidos como base para criar produtos ou serviços relacionados a ferramentas de análise de investimento, consultoria automatizada (robo-advisors) ou plataformas de negociação.<br>
+<b>Alocação Eficiente de Recursos:</b> Ao entender melhor o risco e o retorno potencial de diferentes ações, um negócio pode alocar seus recursos financeiros de forma mais eficiente, investindo em ativos que se alinham com seus objetivos de risco e retorno.<br>
 
 <h1><b> Seleção de Dados </b></h1>
 
