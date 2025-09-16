@@ -27,7 +27,14 @@ da média móvel influencia a sensibilidade do indicador às mudanças de preço
 Este é um problema de Previsão de Séries Temporais.
 
 <h1><b> Área de aplicação </b></h1>
-Gestão de Portfólio de Investimentos, Análise de Risco, Algorithmic Trading (Negociação Algorítmica), Pesquisa Financeira, Educação Financeira e Tomada de Decisão Corporativa
+Este projeto de análise e previsão de preços de ações pode ser aplicado em diversas áreas, principalmente dentro do domínio financeiro e de investimentos:<br>
+
+<b>Gestão de Portfólio de Investimentos:</b> Investidores e gestores de fundos podem usar as previsões para tomar decisões sobre quais ações comprar, vender ou manter, buscando maximizar retornos e minimizar riscos.<br>
+<b>Análise de Risco:</b> As análises de volatilidade e Value at Risk (VaR) ajudam a quantificar e gerenciar o risco associado a investimentos em ações específicas ou a um portfólio.<br>
+<b>Algorithmic Trading (Negociação Algorítmica):</b> As previsões geradas pelos modelos podem ser usadas como sinais de entrada/saída para sistemas de negociação automatizados.<br>
+<b>Pesquisa Financeira:</b> O projeto serve como base para pesquisas acadêmicas ou industriais sobre o comportamento do mercado de ações, a eficácia de diferentes modelos de previsão e os fatores que influenciam os preços.<br>
+<b>Educação Financeira:</b> O notebook pode ser usado como uma ferramenta educacional para demonstrar conceitos de análise de mercado, modelagem de séries temporais e finanças quantitativas.<br>
+<b>Tomada de Decisão Corporativa:</b> Empresas de capital aberto podem analisar o comportamento de suas próprias ações ou as de concorrentes para entender o sentimento do mercado e planejar estratégias financeiras.<br>
 
 <h1><b> Valor para o negócio </b></h1>
 Este projeto pode trazer um valor significativo para um negócio, especialmente aqueles envolvidos com o mercado financeiro ou que precisam tomar decisões baseadas no desempenho de ações.<br>
