@@ -47,6 +47,10 @@ O valor reside principalmente em:<br>
 <b>Alocação Eficiente de Recursos:</b> Ao entender melhor o risco e o retorno potencial de diferentes ações, um negócio pode alocar seus recursos financeiros de forma mais eficiente, investindo em ativos que se alinham com seus objetivos de risco e retorno.<br>
 
 <h1><b> Seleção de Dados </b></h1>
+
+Este conjunto de dados é composto por preços de ações e os dados são provenientes do YFinance (Yahoo Finance).
+
+<h1><b> Atributos do dataset</b></h1>
 <table>
         <tr>
             <th>Atributos</th>
@@ -99,7 +103,4 @@ O valor reside principalmente em:<br>
             <td>data (YYYY-MM-DD)</td>
         </tr>
     </table>
-
-<h1><b> Atributos do dataset</b></h1>
-
 <h1>Conclusão</h1>
