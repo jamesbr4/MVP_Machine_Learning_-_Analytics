@@ -47,6 +47,58 @@ O valor reside principalmente em:<br>
 <b>Alocação Eficiente de Recursos:</b> Ao entender melhor o risco e o retorno potencial de diferentes ações, um negócio pode alocar seus recursos financeiros de forma mais eficiente, investindo em ativos que se alinham com seus objetivos de risco e retorno.<br>
 
 <h1><b> Seleção de Dados </b></h1>
+<table>
+        <tr>
+            <th>Atributos</th>
+            <th>Data Type</th>
+            <th>Unidade</th>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>object</td>
+            <td>texto</td>
+        </tr>
+        <tr>            
+            <td>Close</td>
+            <td>float64</td>
+            <td>$ (dólar)</td>            
+        </tr>
+        <tr>            
+            <td>High</td>
+            <td>float64</td>
+            <td>$ (dólar)</td>            
+        </tr>
+        <tr>
+            <td>Low</td>
+            <td>float64</td>
+            <td>$ (dólar)</td>
+        </tr>
+        <tr>
+            <td>Open</td>
+            <td>float64</td>
+            <td>$ (dólar)</td>
+        </tr>
+        <tr>
+            <td>Volume</td>
+            <td>int64</td>
+            <td>número</td>
+        </tr>
+        <tr>
+            <td>company_name</td>
+            <td>object</td>
+            <td>texto</td>
+        </tr>
+        <tr>
+            <td>Ticker</td>
+            <td>object</td>
+            <td>texto</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>object</td>
+            <td>data (YYYY-MM-DD)</td>
+        </tr>
+    </table>
 
 <h1><b> Atributos do dataset</b></h1>
 
