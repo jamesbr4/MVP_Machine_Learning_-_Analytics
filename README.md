@@ -104,7 +104,7 @@ Este conjunto de dados é composto por preços de ações e os dados são proven
             <td>data (YYYY-MM-DD)</td>
         </tr>
     </table>
-<h1><b>Conclusão</b>b></h1>
+<h1><b>Conclusão</b></h1>
 Este projeto realizou uma análise exploratória e modelagem preditiva dos preços de fechamento de um conjunto de ações de tecnologia (AAPL, GOOG, MSFT, AMZN, NFLX, SPOT) utilizando dados históricos de janeiro de 2020 a agosto de 2025.<br>
 
 A análise inicial dos dados revelou tendências históricas de preços, padrões de volume de negociação e métricas descritivas importantes para cada ação. Exploramos a média móvel para suavizar as flutuações de preços e identificar tendências. A análise de retorno diário médio e Value at Risk (VaR) nos forneceu insights sobre o risco associado a cada ação no período analisado. A matriz de correlação destacou a alta correlação positiva entre os retornos diários da maioria das ações de tecnologia na carteira.<br>
