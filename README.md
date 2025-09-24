@@ -149,13 +149,13 @@ As tabelas de comparação entre os preços reais e previstos pela LSTM visualiz
 4. **Previsões Multi-passos:</b> Em vez de prever apenas o próximo dia, explorar a previsão para múltiplos dias ou semanas no futuro. Isso é mais desafiador, mas mais útil para estratégias de investimento de médio prazo.<br>
 5. **Considerar a Volatilidade:</b> Modelos que explicitamente modelam a volatilidade (como modelos GARCH) podem ser úteis para entender e prever a incerteza dos preços.<br>
 
-<b>Melhorias na Análise e Avaliação:</b><br><br>
+<h2><b>Melhorias na Análise e Avaliação:</b></h2><br>
 
 6. <b>Análise Mais Profunda de Resíduos:</b> Analisar os erros de previsão (resíduos) para identificar padrões não capturados pelos modelos.<br>
 7. <b>Métricas de Avaliação Adicionais:</b> Considerar outras métricas relevantes para previsão de séries temporais, como MASE (Mean Absolute Scaled Error) ou diferentes tipos de erro percentual.<br>
 8. <b>Backtesting:</b> Simular estratégias de negociação baseadas nas previsões para avaliar seu desempenho financeiro real no histórico de dados.<br>
 
-<b>Boas Práticas e Robustez:</b><br>
+<h2><b>Boas Práticas e Robustez:</b></h2><br>
 
 9. <b>Validação Cruzada para Séries Temporais:</b> Implementar técnicas de validação cruzada apropriadas para dados de séries temporais (por exemplo, Time Series Split) para obter uma estimativa mais robusta do desempenho do modelo.<br>
 10. <b>Tratamento de Outliers e Eventos Especiais:</b> Considerar o tratamento específico de outliers extremos ou o impacto de eventos de mercado (como a pandemia de COVID-19, que pode ter impactado os dados iniciais).<br>
