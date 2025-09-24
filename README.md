@@ -104,4 +104,30 @@ Este conjunto de dados é composto por preços de ações e os dados são proven
             <td>data (YYYY-MM-DD)</td>
         </tr>
     </table>
-<h1>Conclusão</h1>
+<h1><b>Conclusão</b>b></h1>
+Este projeto realizou uma análise exploratória e modelagem preditiva dos preços de fechamento de um conjunto de ações de tecnologia (AAPL, GOOG, MSFT, AMZN, NFLX, SPOT) utilizando dados históricos de janeiro de 2020 a agosto de 2025.<br>
+
+A análise inicial dos dados revelou tendências históricas de preços, padrões de volume de negociação e métricas descritivas importantes para cada ação. Exploramos a média móvel para suavizar as flutuações de preços e identificar tendências. A análise de retorno diário médio e Value at Risk (VaR) nos forneceu insights sobre o risco associado a cada ação no período analisado. A matriz de correlação destacou a alta correlação positiva entre os retornos diários da maioria das ações de tecnologia na carteira.<br>
+
+Na fase de modelagem preditiva, foram comparados modelos Baseline (Média Móvel), Random Forest, ARIMA e LSTM. O modelo LSTM foi otimizado e o ARIMA também passou por otimização de hiperparâmetros (ordem p, d, q) usando o conjunto de validação antes de serem avaliados. As métricas de avaliação no conjunto de teste (MSE, RMSE, MAE) foram consolidadas para comparação.<br>
+
+Com base no MSE médio no conjunto de teste, o ranking de desempenho dos modelos, do melhor para o pior, foi:<br>
+
+1.  <b>ARIMA Otimizado:</b> Apresentou o menor MSE médio, indicando o melhor desempenho geral.<br>
+2.  <b>LSTM:</b> Embora não tenha tido o menor MSE médio, demonstrou uma capacidade razoável de seguir a tendência e teve desempenho significativamente superior ao Baseline e Random Forest para a maioria das ações.<br>
+3.  <b>Random Forest (Otimizado):</b> Teve um desempenho superior ao Baseline, mas geralmente inferior ao ARIMA Otimizado e LSTM em termos de MSE.<br>
+4.  <b>Baseline (Média Móvel):</b> Como esperado, foi o modelo com o pior desempenho (maior MSE), servindo como um ponto de comparação simples.<br>
+
+As tabelas de comparação entre os preços reais e previstos pela LSTM visualizam a capacidade do modelo de seguir a tendência geral dos preços, embora com variações e erros inerentes à previsão de séries temporais financeiras.<br>
+
+<h1><b>Limitações do Projeto</b></h1><br>
+
+É importante reconhecer as limitações deste projeto:<br>
+
+1. <b>Modelos:</b> Os modelos utilizados (ARIMA com grade limitada e a arquitetura de LSTM) são relativamente simples e podem não capturar todas as complexidades e não linearidades do mercado de ações. Modelos mais avançados ou ensembles poderiam ser explorados.<br>
+2. <b>Otimização do LSTM:</b> Embora a otimização de hiperparâmetros para o LSTM tenha sido realizada, a grade de busca utilizada pode ter sido limitada, e <b>uma otimização mais abrangente poderia levar a um modelo ainda mais preciso.</b><br>
+3. <b>Recursos Utilizados:</b> O projeto focou apenas no preço de fechamento como principal característica de entrada para os modelos preditivos. Fatores externos e outras características (volume, indicadores técnicos, notícias, eventos macroeconômicos) que influenciam os preços das ações não foram incluídos, o que limita a capacidade preditiva dos modelos.<br>
+4. <b>Período de Dados:</b> A análise e os modelos são baseados em um período de dados específico. O comportamento histórico pode não se repetir no futuro, e os modelos precisam ser reavaliados e retreinados periodicamente.<br>
+5. <b>Divisão de Dados:</b> A divisão cronológica em treino, validação e teste é padrão, mas diferentes proporções ou técnicas de validação cruzada para séries temporais poderiam ser consideradas.<br>
+6. <b>Natureza do Mercado:</b> O mercado de ações é inerentemente volátil e influenciado por inúmeros fatores imprevisíveis. Mesmo os modelos mais sofisticados não podem garantir previsões perfeitas. As previsões devem ser usadas como ferramentas de apoio, não como garantia de resultados.<br>
+7. <b>Interpretabilidade do LSTM:</b> Embora o LSTM tenha apresentado bom desempenho preditivo, sua natureza de "caixa preta" torna a interpretação direta de como ele chega às previsões mais desafiadora em comparação com modelos mais tradicionais como o ARIMA.<br>
