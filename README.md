@@ -155,7 +155,7 @@ As tabelas de comparação entre os preços reais e previstos pela LSTM visualiz
 7. <b>Métricas de Avaliação Adicionais:</b> Considerar outras métricas relevantes para previsão de séries temporais, como MASE (Mean Absolute Scaled Error) ou diferentes tipos de erro percentual.<br>
 8. <b>Backtesting:</b> Simular estratégias de negociação baseadas nas previsões para avaliar seu desempenho financeiro real no histórico de dados.<br>
 
-<h1><b>Boas Práticas e Robustez:</b></h1><br>
+<h2><b>Boas Práticas e Robustez:</b></h2><br>
 
 9. <b>Validação Cruzada para Séries Temporais:</b> Implementar técnicas de validação cruzada apropriadas para dados de séries temporais (por exemplo, Time Series Split) para obter uma estimativa mais robusta do desempenho do modelo.<br>
 10. <b>Tratamento de Outliers e Eventos Especiais:</b> Considerar o tratamento específico de outliers extremos ou o impacto de eventos de mercado (como a pandemia de COVID-19, que pode ter impactado os dados iniciais).<br>
