@@ -22,6 +22,7 @@ da média móvel influencia a sensibilidade do indicador às mudanças de preço
 5. Quanto valor colocamos em risco ao investir em uma ação específica?
   <br>R: O valor do VaR (Value at Risk) calculado para cada ação na tabela representa uma estimativa da perda potencial máxima que você poderia experimentar em um único dia, com 95% de confiança. Ele quantifica o "valor em risco" histórico em termos monetários (USD) e percentuais, dando uma medida concreta do risco de queda para cada ação.<br>
 6. Previsão do preço de fechamento das ações
+7. <br>R: O modelo LSTM, como um algoritmo de Deep Learning, conseguiu aprender padrões nos dados históricos para fazer previsões que geralmente acompanham a direção do mercado, mas está sujeito a erros e variações diárias, que são normais em previsões de séries temporais financeiras. A análise das métricas e a visualização gráfica ajudam a entender a magnitude desses erros e a confiança que podemos ter nas previsões.
   
 <h1><b> Tipo de Problema </b></h1>
 Este é um problema de Previsão de Séries Temporais.
