@@ -2,10 +2,10 @@
 Projeto MVP do MBA Ciência de Dados e Analytics PUC-Rio
 
 <h1><b> Descrição do Problema </b></h1>
-Análise e previsão dos preços de fechamento de ações de tecnologia utilizando dados históricos.
-O projeto busca:
-1) Analisar o comportamento histórico dos preços e volume de negociação de um conjunto de ações de tecnologia.
-2) Entender o risco e a correlação entre os retornos diários dessas ações.
+Análise e previsão dos preços de fechamento de ações de tecnologia utilizando dados históricos.<br>
+O projeto busca:<br>
+1) Analisar o comportamento histórico dos preços e volume de negociação de um conjunto de ações de tecnologia.<br>
+2) Entender o risco e a correlação entre os retornos diários dessas ações.<br>
 3) Desenvolver e comparar modelos (como Baseline, Random Forest, ARIMA e LSTM(Modelo Selecionado para gerar as predições)) para prever os preços de fechamento futuros com base nos dados passados.
 
 <h1><b> Perguntas do Problema </b></h1>
