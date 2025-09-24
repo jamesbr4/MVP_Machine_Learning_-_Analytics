@@ -131,3 +131,31 @@ As tabelas de comparação entre os preços reais e previstos pela LSTM visualiz
 5. <b>Divisão de Dados:</b> A divisão cronológica em treino, validação e teste é padrão, mas diferentes proporções ou técnicas de validação cruzada para séries temporais poderiam ser consideradas.<br>
 6. <b>Natureza do Mercado:</b> O mercado de ações é inerentemente volátil e influenciado por inúmeros fatores imprevisíveis. Mesmo os modelos mais sofisticados não podem garantir previsões perfeitas. As previsões devem ser usadas como ferramentas de apoio, não como garantia de resultados.<br>
 7. <b>Interpretabilidade do LSTM:</b> Embora o LSTM tenha apresentado bom desempenho preditivo, sua natureza de "caixa preta" torna a interpretação direta de como ele chega às previsões mais desafiadora em comparação com modelos mais tradicionais como o ARIMA.<br>
+
+<h1><b>Próximos Passos e Melhorias na Modelagem:</b></h1><br>
+
+1. <b>Otimização Mais Abrangente/Robusta do LSTM:</b> Retomar e concluir uma otimização de hiperparâmetros mais exaustiva para o modelo LSTM (expandindo a grade de busca ou utilizando técnicas como busca aleatória ou otimização Bayesiana) pode levar a um modelo ainda mais preciso.<br>
+2. <b>Explorar Outros Modelos Avançados:</b> Experimentar outros modelos de séries temporais, como:<br>
+   <b>SARIMA:</b> Se houver sazonalidade não capturada pelo ARIMA simples.<br>
+   <b>Prophet:</b> Desenvolvido pelo Facebook, é robusto para dados com fortes efeitos sazonais e de feriados.<br>
+   <b>Modelos de Machine Learning/Deep Learning Mais Complexos:</b> Redes neurais recorrentes (RNNs) mais profundas, LSTMs Bidirecionais, GRUs, ou até mesmo modelos baseados em Transformers (embora exijam mais dados e poder computacional).<br>
+   <b>Modelos de Ensemble:</b> Combinar as previsões de diferentes modelos pode frequentemente levar a resultados mais robustos.<br>
+3. <b>Inclusão de Features Adicionais (Engenharia de Atributos):</b> A previsão de preços de ações é complexa e não depende apenas do histórico de preços. Incluir outras features relevantes pode melhorar significativamente os modelos:<br>
+   <b>Indicadores Técnicos:</b> Médias móveis de diferentes períodos (além da usada como baseline), RSI, MACD, bandas de Bollinger, etc.<br>
+   <b>Volume de Negociação:</b> O volume pode indicar a força de um movimento de preço.<br>
+   <b>Fatores Macroeconômicos:</b> Taxa de juros, inflação, dados de emprego, etc.<br>
+   <b>Sentimento de Notícias/Redes Sociais:</b> Análise de sentimento de notícias relacionadas às empresas ou do sentimento geral do mercado.<br>
+   <b>Preços de Outras Ações/Índices:</b> A correlação vista anteriormente sugere que os movimentos de ações correlacionadas são relevantes.<br>
+4. **Previsões Multi-passos:</b> Em vez de prever apenas o próximo dia, explorar a previsão para múltiplos dias ou semanas no futuro. Isso é mais desafiador, mas mais útil para estratégias de investimento de médio prazo.<br>
+5. **Considerar a Volatilidade:</b> Modelos que explicitamente modelam a volatilidade (como modelos GARCH) podem ser úteis para entender e prever a incerteza dos preços.<br>
+
+<b>Melhorias na Análise e Avaliação:</b><br><br>
+
+6. <b>Análise Mais Profunda de Resíduos:</b> Analisar os erros de previsão (resíduos) para identificar padrões não capturados pelos modelos.<br>
+7. <b>Métricas de Avaliação Adicionais:</b> Considerar outras métricas relevantes para previsão de séries temporais, como MASE (Mean Absolute Scaled Error) ou diferentes tipos de erro percentual.<br>
+8. <b>Backtesting:</b> Simular estratégias de negociação baseadas nas previsões para avaliar seu desempenho financeiro real no histórico de dados.<br>
+
+<b>Boas Práticas e Robustez:</b><br>
+
+9. <b>Validação Cruzada para Séries Temporais:</b> Implementar técnicas de validação cruzada apropriadas para dados de séries temporais (por exemplo, Time Series Split) para obter uma estimativa mais robusta do desempenho do modelo.<br>
+10. <b>Tratamento de Outliers e Eventos Especiais:</b> Considerar o tratamento específico de outliers extremos ou o impacto de eventos de mercado (como a pandemia de COVID-19, que pode ter impactado os dados iniciais).<br>
